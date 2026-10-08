@@ -1,0 +1,109 @@
+@page
+@{
+    Layout = null;
+    ViewData["Title"] = "Gerhardt Botha, software developer";
+}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>@ViewData["Title"]</title>
+<meta name="description" content="Gerhardt Botha is a .NET and full-stack developer in Gauteng, South Africa, working in financial services.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="~/css/cv.css" asp-append-version="true" />
+</head>
+<body>
+
+<div class="page">
+
+  <aside class="card">
+    <div class="intro">
+      <h1>Gerhardt Botha</h1>
+    </div>
+    <div class="side">
+      <ul class="facts">
+        <li><i class="bi bi-briefcase-fill icon" aria-hidden="true"></i>Software developer</li>
+        <li><i class="bi bi-geo-alt-fill icon" aria-hidden="true"></i>Gauteng, South Africa</li>
+        <li><i class="bi bi-envelope-fill icon" aria-hidden="true"></i><a href="mailto:gerhardtibotha@@gmail.com">gerhardtibotha@@gmail.com</a></li>
+      </ul>
+
+      <h2><i class="bi bi-code-slash icon" aria-hidden="true"></i>Skills</h2>
+
+      <dl class="skills">
+        <dt>Back end</dt>
+        <dd>C#, .NET 8, ASP.NET Core Web API, Entity Framework Core</dd>
+        <dt>Front end</dt>
+        <dd>React, TypeScript</dd>
+        <dt>Data</dt>
+        <dd>SQL Server, T-SQL, stored procedures</dd>
+        <dt>Tools</dt>
+        <dd>Git, TeamCity, Octopus Deploy</dd>
+      </dl>
+
+      <h2><i class="bi bi-globe2 icon" aria-hidden="true"></i>Languages</h2>
+      <ul class="plain">
+        <li>English</li>
+        <li>Afrikaans</li>
+      </ul>
+    </div>
+  </aside>
+
+  <div class="main">
+
+    <section class="card section">
+      <h2><i class="bi bi-briefcase-fill icon" aria-hidden="true"></i>Work experience</h2>
+
+      <div class="entry">
+        <h3>Software developer, Fedgroup</h3>
+        <p class="when"><i class="bi bi-calendar3 icon" aria-hidden="true"></i>Oct 2022 to Sep 2026</p>
+        <p>Financial services software: the core platform, the broker and client portals, and the shared services behind them. Builds and deployments run through TeamCity and Octopus Deploy.</p>
+        <ul>
+          <li>Designed and built a document generation feature across four services, from the generation endpoints to the PDF download in the web portal.</li>
+          <li>Implemented financial rules and features, including endowment contribution limits, broker commission, FICA document templates and trust registration checks.</li>
+          <li>Worked on authorization and input validation, and wrote SQL Server stored procedures and post-deployment scripts.</li>
+          <li>Refactored long methods and removed dead code. Review pull requests for the team.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <h3>IT technician, FFG Connection CC</h3>
+        <p class="when"><i class="bi bi-calendar3 icon" aria-hidden="true"></i>Dec 2017 to Sep 2022</p>
+        <p>Installed and maintained servers, networks and VOIP systems for clients, handled domain and email administration, and gave support. Certified Sophos sales and security specialist.</p>
+      </div>
+    </section>
+
+    <section class="card section">
+      <h2><i class="bi bi-mortarboard-fill icon" aria-hidden="true"></i>Education</h2>
+
+      <div class="entry">
+        <h3>CTU Training Solutions</h3>
+        <p>FET Certificates in Systems Development, NQF levels 4 and 5.</p>
+      </div>
+
+      <div class="entry">
+        <h3>Hoërskool Goudrif</h3>
+        <p class="when"><i class="bi bi-calendar3 icon" aria-hidden="true"></i>2017</p>
+        <p>Matric.</p>
+      </div>
+
+      <div class="entry">
+        <h3>Certifications</h3>
+        <p>Microsoft DP-900 Azure Data Fundamentals. IT Specialist in Python, HTML and CSS, and JavaScript. Sophos Certified Sales Consultant.</p>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<footer class="cv-footer">
+  <p>Get in touch</p>
+  <p>
+    <a href="mailto:gerhardtibotha@@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/gerhardt-botha-6026a1328">LinkedIn</a>
+    <a href="https://github.com/GerhardtIBotha">GitHub</a>
+  </p>
+</footer>
+
+</body>
+</html>
